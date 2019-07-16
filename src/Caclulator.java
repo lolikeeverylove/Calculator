@@ -57,6 +57,7 @@ public class Caclulator extends Application {
                     textField.appendText(button[finalI].getText());
                 }});
         }
+
         button[3].setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent event) {
                 first[0] = Integer.parseInt(textField.getText());
