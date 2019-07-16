@@ -115,7 +115,7 @@ public class Caclulator extends Application {
                 });
             }});
 
-        primaryStage.setScene(new Scene(new Group(flowPane))); primaryStage.show();
+        primaryStage.setScene(new Scene(new Group(flowPane))); primaryStage.setTitle("Calc");primaryStage.show();
 
 
 
