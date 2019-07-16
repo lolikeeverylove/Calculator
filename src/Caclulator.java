@@ -30,6 +30,7 @@ public class Caclulator extends Application {
         menuFile.getItems().addAll(open, settings);
         Menu menuHelp = new Menu("Help");
         //so long because it describes the characteristics
+
         MenuItem about = new MenuItem("About");about.setOnAction(event -> getHostServices().showDocument("https://ru.wikipedia.org/wiki/IntelliJ_IDEA"));
         MenuItem CheckUpdate = new MenuItem("Check Update");
         menuHelp.getItems().addAll(about, CheckUpdate);
