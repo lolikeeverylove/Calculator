@@ -1,7 +1,7 @@
+//every ui controls have height=25, but need have 50.1, that everything was is the best
+//need optimize that all enumeration of the buttons, Event Handler was in other methods
+//i can easy organize button resete (C)which delete all from textfield..
 import javafx.application.Application;
-//каждая штука изначально в высь 25, но надо указывать 50.1
-//надо всё как то оптимизировать чтобы всякие прохождения по кнопкам, ивент хендлеры были в других методах
-//можно изи кнопку сброса организовать
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Orientation;
@@ -29,7 +29,7 @@ public class Caclulator extends Application {
         MenuItem settings = new MenuItem("settings");
         menuFile.getItems().addAll(open, settings);
         Menu menuHelp = new Menu("Help");
-
+        //so long because it describes the characteristics
         MenuItem about = new MenuItem("About");about.setOnAction(event -> getHostServices().showDocument("https://ru.wikipedia.org/wiki/IntelliJ_IDEA"));
         MenuItem CheckUpdate = new MenuItem("Check Update");
         menuHelp.getItems().addAll(about, CheckUpdate);
